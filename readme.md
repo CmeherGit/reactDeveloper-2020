@@ -6,16 +6,16 @@
 - Unidirectional data flow.
 - Flow of data in react : Views -> Actions -> State
 
-### Single page applications
+### Single Page Applications
 
-- single page applications helps to reduce loading time of webpage.
-- single page replace component when it is needed not load whole page again.
+- Single page applications helps to reduce loading time of webpage.
+- Single page replace component when it is needed not load whole page again.
 
-### Fetching content
+### Fetching Content
 
-- lifecycle methods are automatically react.
+- Lifecycle methods are automatically react.
 - Anything in between component tag is children.
-- break program into simple small components
+- Break program into simple small components
 
 ### The job of a react developer
 
@@ -31,25 +31,25 @@
 - We can reuse components for multiple datas processing(resusable smaller components).
 - The component name must show exactly what it does.
 - Flexibility of performance improvement.
-- components are easy to test and find bugs quickly.
+- Components are easy to test and find bugs quickly.
 
 ### >> setState
 - setState is asyncronous funciton call, thats why the search button return the state(searchField state in this program) value one letter behind.
 
-### Asyncronous and syncronous function call
+### Asyncronous and Syncronous function call
 
-- synchornous funciton call something we can expect to happen almost immediatly.js for wait continuesly to finish syncronous funciton call.
-- asyncrounos action or events is something is actually takes definite amount of time javascript does not know.its actually runs the rest of the code after and then when the asyncronous event finishes it then run that finished events.
+- Synchornous funciton call something we can expect to happen almost immediatly.js for wait continuesly to finish syncronous funciton call.
+- Asyncrounos action or events is something is actually takes definite amount of time javascript does not know.its actually runs the rest of the code after and then when the asyncronous event finishes it then run that finished events.
 
-### Synthetic events
+### Synthetic Events
 
-- synthetic events is like a fake events it pretents react events
+- Synthetic events is like a fake events it pretents react events.
 
-### Array methods
+### Array Methods
 
-- filter - for filtering items from an array,includes - check the given string is include in array item(take and compare each array elements).
+- Filter - for filtering items from an array,includes - check the given string is include in array item(take and compare each array elements).
 
-### Functional component
+### Functional Component
 
 - They dont have access to state and constructor. They also dont have lifecycle methods like componentDidMount.
 - Sometimes we need to render some html only.
@@ -65,7 +65,7 @@
 - * nom audit fix helps to remove all vulnerabilities.
 ### Lock file
 - Lock file - lock file is auto generated file by either npm or yarn that lock the version of all the packages inside our application within a specific range based on the rool that we set inside the package.json
-- why we need lock file ?
+- Why we need lock file ?
     - Multiple people work with different version of same dependencies with same project will causes break our application. Need everybody use a consistant version of dependencies in  same project/ application.Yarn lock file ensure that everybody using same version of dependencies.
 
 ### Virtual DOM
@@ -87,7 +87,7 @@
      - In the above example the first console ``log the latest state`` (// return 56).
      - The second console ``log the one state before the latest update`` (// return 47).
 
-## Lifecycle methods
+## Lifecycle Methods
 
 ### Mounting Phase
 - Mounting phase is the phase the component is being put on the DOM for the first time.
